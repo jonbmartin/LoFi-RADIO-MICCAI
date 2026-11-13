@@ -1,0 +1,35 @@
+# Data: challenge volumes, labels, and external corpora. Never commit.
+Lisa1A
+/data
+*.nii
+*.nii.gz
+*.zip
+*.h5
+
+# Model weights, feature caches, and run outputs
+/cache
+/runs
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+phikon/
+Triad/
+LISA_LF_QC_predictions.csv
+
+# Generated paper tables and figures
+paper/assets/
+paper/tab_*.tex
+paper/fig_*.png
+paper/fig_*.pdf
+
+# Python / editor
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+.vscode/
+.idea/

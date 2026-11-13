@@ -1,0 +1,20 @@
+# Core (Python 3.10+). Tested with torch 2.x, timm 1.0, transformers 4.37.
+torch
+timm
+transformers
+open_clip_torch
+safetensors
+numpy
+scipy
+pandas
+scikit-learn
+nibabel
+h5py              # M4Raw corpus (.h5)
+matplotlib        # paper figures
+scikit-image      # paper Fig. 1 thumbnails
+
+# Optional, only for individual rows of the backbone screen (Table 1):
+#   segment-anything                    SAM   (pip install git+https://github.com/facebookresearch/segment-anything.git)
+#   sam2                                SAM2  (pip install -e . from https://github.com/facebookresearch/sam2)
+#   monai                               BrainIAC
+#   dynamic-network-architectures       Triad (plus a clone of https://github.com/wangshansong1/Triad)
